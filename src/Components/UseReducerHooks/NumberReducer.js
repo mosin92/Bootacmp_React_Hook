@@ -12,3 +12,5 @@ else{
 }
 
 export default number_reducer;
+
+//Called as custom Hook
