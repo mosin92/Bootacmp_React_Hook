@@ -1,5 +1,6 @@
 import './App.css';
-import Todo from './Components/TodoApp/Todo';
+import ReduxHooks from './Components/ReduxHooks/ReduxHooks';
+// import Todo from './Components/TodoApp/Todo';
 // import Loginform from './Components/Controlled-Login-Form/Loginform';
 // import Form from './Components/UnControlled-Form/Form';
 // import UseEffectHook from './Components/UseEffectHook';
@@ -7,12 +8,17 @@ import Todo from './Components/TodoApp/Todo';
 
 function App() {
   return (
-    <div className="App">
+   
+      <div className="App">
       {/* <Loginform /> */}
       {/* <Form /> */}
       {/* <UseEffectHook /> */}
       {/* <UseReducerHook /> */}
-      <Todo />
+      {/* <Todo /> */}
+
+      <ReduxHooks />
+
+    
     </div>
   );
 }
