@@ -12,3 +12,16 @@ export const decrement=()=>{
         payload:5,
     }
 }
+
+export const mulitiply=()=>{
+return{
+    type:"Multiply",
+    payload:5
+}
+}
+export const divide=()=>{
+    return{
+        type:"Divide",
+        payload:5
+    }
+}

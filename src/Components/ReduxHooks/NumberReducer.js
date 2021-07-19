@@ -9,4 +9,15 @@ const NumberReducer=(state= initialstate,action)=>{
     }
 }
 
+
+const startingvalue=5;
+const MulReducer=(state=startingvalue,action)=>{
+    switch(action.type){
+        case'Multiply':return state * action.payload;
+        case 'Divide':return state / action.payload;
+        default : return state;
+    }
+}
+
+export {MulReducer}
 export default NumberReducer;
