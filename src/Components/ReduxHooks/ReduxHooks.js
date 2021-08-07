@@ -10,7 +10,7 @@ function ReduxHooks() {
     console.log(value)
     return (
         <div style={{margin:'10% auto',width:"30%"}}>
-           <h1>Redux Hooks Practice</h1>
+           <h1>Redux Hooks Practice 1</h1>
            <p>Value: {value}</p>
            <button style={{margin:"20px"}} onClick={()=>dispatch(increment())}>Increment</button>
            <button style={{margin:"20px"}} onClick={()=>dispatch(decrement())}>Decrement</button>

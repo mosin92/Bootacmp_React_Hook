@@ -1,5 +1,7 @@
 import './App.css';
-import ReduxHooks from './Components/ReduxHooks/ReduxHooks';
+import Index from './Components/React-Redux-Exercise-2';
+import ReactNavBar from './Components/ReactNavBar/ReactNavBar';
+//import ReduxHooks from './Components/ReduxHooks/ReduxHooks';
 // import Todo from './Components/TodoApp/Todo';
 // import Loginform from './Components/Controlled-Login-Form/Loginform';
 // import Form from './Components/UnControlled-Form/Form';
@@ -15,9 +17,9 @@ function App() {
       {/* <UseEffectHook /> */}
       {/* <UseReducerHook /> */}
       {/* <Todo /> */}
-
-      <ReduxHooks />
-
+      {/* <ReduxHooks /> */}
+      {/* <Index /> */}
+    <ReactNavBar/>
     
     </div>
   );
