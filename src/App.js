@@ -1,6 +1,7 @@
-import './App.css';
-import Index from './Components/React-Redux-Exercise-2';
-import ReactNavBar from './Components/ReactNavBar/ReactNavBar';
+import '../src/Components/ReactNavBar/navbar.css';
+import Index from './Redux-ToDo/Index';
+// import Index from './Components/React-Redux-Exercise-2';
+// import ReactNavBar from './Components/ReactNavBar/ReactNavBar';
 //import ReduxHooks from './Components/ReduxHooks/ReduxHooks';
 // import Todo from './Components/TodoApp/Todo';
 // import Loginform from './Components/Controlled-Login-Form/Loginform';
@@ -11,7 +12,7 @@ import ReactNavBar from './Components/ReactNavBar/ReactNavBar';
 function App() {
   return (
    
-      <div className="App">
+      <>
       {/* <Loginform /> */}
       {/* <Form /> */}
       {/* <UseEffectHook /> */}
@@ -19,9 +20,10 @@ function App() {
       {/* <Todo /> */}
       {/* <ReduxHooks /> */}
       {/* <Index /> */}
-    <ReactNavBar/>
-    
-    </div>
+     
+    {/* <ReactNavBar/> */}
+    <Index/>
+    </>
   );
 }
 
